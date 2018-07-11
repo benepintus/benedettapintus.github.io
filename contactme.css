@@ -1,0 +1,52 @@
+
+@font-face {
+  font-family: letter;
+  src: url(letter.ttf);}
+  .titolo {font-family: letter;
+    font-size: 50px;
+  text-align: center;
+  margin-top: 300px;
+  border: white;
+}
+hr {margin-top:10px; width: 500px; border-width: 1px;background-color: solid black;align: center;}
+h2 {font-family: letter;text-align: center;top: 370px;font-size: 20px;}
+h3 {font-family: letter;text-align: center;top: 410px;font-size: 20px;}
+
+p {font-family: letter;font-size: 20px;position: absolute;top: 60px; right: 100px;}
+a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+
+p>a {outline: none;
+ position: relative;
+ color: #000;
+ text-decoration: none;
+ padding: 2px 1px 0;
+}
+p>a:hover {
+ color: black;
+}
+p>a:before {
+ content: "";
+ position: absolute;
+ width: 100%;
+ height: 2px;
+ bottom: 0;
+ left: 0;
+ background-color: #000;
+ visibility: hidden;
+ -webkit-transform: scaleX(0);
+ transform: scaleX(0);
+ -webkit-transition: all 0.3s ease-in-out 0s;
+ transition: all 0.3s ease-in-out 0s;
+}
+p>a:hover:before {
+ visibility: visible;
+ -webkit-transform: scaleX(1);
+ transform: scaleX{
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}

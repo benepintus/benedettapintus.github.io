@@ -1,0 +1,76 @@
+@font-face {font-family: letter;src: url(letter.ttf); colore: white;}
+
+h1 {font-family: letter;font-size: 40px;text-align:center;}
+h2 {font-family: letter;font-size: 40px; text-align: center;}
+h3 {font-family: letter;font-size: 40px;text-align: center;}
+h4 {font-family: letter;font-size: 40px;text-align: center;}
+
+p {font-family: letter;font-size: 20px;position: absolute;top: 2%; right: 7%;}
+
+
+h1>a {outline:none;
+position:relative;
+color: white;
+text-decoration: none;
+padding: 0,0,0,0;
+outline-width: thin;
+}
+h1>a:hover{outline: solid;}
+
+
+h2>a  {outline: none;
+position:relative;
+text-decoration: none;
+padding: 0,0,0,0;
+outline-width: thin;}
+h2>a:hover {outline:solid;}
+
+
+h3>a {outline:none;
+position:relative;
+color: white;
+text-decoration: none;
+padding: 0,0,0,0;
+outline-width: thin;}
+h3>a:hover{outline:solid;}
+
+h4>a {outline:none;
+position:relative;
+color: white;
+text-decoration: none;
+padding: 0,0,0,0;
+outline-width: thin;}
+h4>a:hover{outline:solid;}
+
+p>a {outline: none;
+ position: relative;
+ color:white;
+ text-decoration: none;
+ padding: 2px 1px 0;
+}
+
+p>a:hover {
+ color:white;
+}
+p>a:before {
+ content: "";
+ position: absolute;
+ width: 100%;
+ height: 2px;
+ bottom: 0;
+ left: 0;
+ background-color:white;
+ visibility: hidden;
+ -webkit-transform: scaleX(0);
+ transform: scaleX(0);
+ -webkit-transition: all 0.3s ease-in-out 0s;
+ transition: all 0.3s ease-in-out 0s;
+}
+p>a:hover:before {
+ visibility: visible;
+ -webkit-transform: scaleX(1);
+ transform: scaleX{
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
