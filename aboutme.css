@@ -4,12 +4,18 @@
 }
 h1 {font-family: letter;margin-top: 3.5%;%;text-align: center;font-size: 50px;}
 hr {width: 350px; border-width: 1px;background-color: solid black;align: center;}
-h2 {top:8%;text-align: center;}
+
+h2{font-family: letter;font-size: 20px;position: absolute;top: 2%; right: 7%;}
+
+h3 {top:8%;text-align: center;}
 p {font-family: letter;text-align: center; font-size: 20px;padding-left: 400px;padding-right: 400px;line-height: 50px;}
+.ing {font-family: letter;text-align: center; font-size: 15px;padding-left: 400px;padding-right: 400px;line-height: 30px;}
+video {width: 65%;}
+div {margin-left: 400px;}
 
-h3 {font-family: letter;font-size: 20px;position: absolute;top: 40px; right: 100px;}
-
-
+h5{text-align:center;
+  font-family: letter; font-size: 20px; bottom:5%;}
+h4 {font-family: letter;font-size: 30px; text-align: center;}
 
 a {outline: none;
  position: relative;
